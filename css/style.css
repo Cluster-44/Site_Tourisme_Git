@@ -59,6 +59,18 @@ section {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+#sites_touristiques{
+    display: flex;
+    gap: 15px;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    width: 30vh;
+}
+
+
 h2 {
   color: #1e6091;
   margin-bottom: 10px;
