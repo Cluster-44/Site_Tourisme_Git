@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Comment venir en Égypte depuis Genève</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <!-- Ajouts minimes, uniquement pour cette page (le reste vient de style.css) -->
+  <style>
+    #transports { height: auto; flex-wrap: wrap; justify-content: center; }
+    #transports .item-article { max-width: 250px; }
+    #transports svg { width: 100%; height: auto; border-radius: 20px; display: block; }
+    #carte { display: flex; justify-content: center; }
+    #carte figure { margin: 0; text-align: center; }
+    #carte svg { width: 70vw; max-width: 700px; height: auto; border-radius: 10px; }
+    #recapitulatif { display: flex; flex-direction: column; align-items: center; padding: 20px; }
+    #recapitulatif table { border-collapse: collapse; }
+    #recapitulatif th, #recapitulatif td { border: 1px solid black; padding: 8px 14px; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <nav>
+        <a href="sites_touristiques.html">Sites touristiques</a>
+        <a href="cuisine.html">Cuisine sur place</a>
+        <a href="faune_et_flore.html">Faune et flore</a>
+        <a href="acces.html">Venir depuis Geneve</a>
+        <a href="hebergements.html">Hébergements</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="introduction">
+      <h1>Comment venir en Égypte depuis Genève</h1>
+      <p>
+        L'Égypte se situe à environ 3 000 km de Genève. Il n'existe pas de liaison
+        terrestre directe : l'avion est le moyen le plus simple et le plus rapide,
+        mais d'autres combinaisons existent selon le budget et le temps disponible.
+      </p>
+    </section>
+
+    <!-- Carte schématique dessinée en SVG -->
+    <section id="carte">
+      <figure>
+        <img src="img/trajet.png" alt="">
+        <figcaption>Trajet schématique : Genève → Le Caire (environ 3 000 km)</figcaption>
+      </figure>
+    </section>
+
+    <section id="transports" class="Sections-differentes">
+
+      <article class="item-article">
+        <!-- Avion -->
+        <svg viewBox="0 0 200 120" role="img" aria-label="Dessin d'un avion dans le ciel">
+          <rect width="200" height="120" fill="#8fd0f5"/>
+          <g fill="#fff"><ellipse cx="40" cy="30" rx="22" ry="9"/><ellipse cx="58" cy="26" rx="14" ry="8"/>
+            <ellipse cx="160" cy="95" rx="24" ry="9"/><ellipse cx="144" cy="91" rx="12" ry="7"/></g>
+          <g transform="rotate(-12 100 60)">
+            <path d="M55 60 Q55 50 75 50 H150 Q172 54 175 60 Q172 66 150 70 H75 Q55 70 55 60 Z" fill="#f4f4f4" stroke="#444" stroke-width="2"/>
+            <path d="M60 52 L48 32 L62 32 L80 52 Z" fill="#c0392b" stroke="#444" stroke-width="2"/>
+            <path d="M100 66 L82 96 L100 96 L128 68 Z" fill="#e5e5e5" stroke="#444" stroke-width="2"/>
+            <g fill="#5aa9d6"><circle cx="105" cy="58" r="3.5"/><circle cx="118" cy="58" r="3.5"/><circle cx="131" cy="58" r="3.5"/><circle cx="144" cy="58" r="3.5"/></g>
+          </g>
+        </svg>
+        <h2>Avion</h2>
+        <ul>
+          <li>Départ : aéroport de Genève (GVA)</li>
+          <li>Arrivée : Le Caire (CAI), ou Hurghada / Charm el-Cheikh en saison</li>
+          <li>Durée : environ 4 h 30 à 5 h en vol direct</li>
+          <li>Prix indicatif : 250 à 600 CHF l'aller-retour</li>
+        </ul>
+        <p>Le plus rapide et le plus pratique. Avec une escale, le trajet est plus long mais parfois moins cher.</p>
+      </article>
+
+      <article class="item-article">
+        <!-- Train -->
+        <svg viewBox="0 0 200 120" role="img" aria-label="Dessin d'un train sur des rails">
+          <rect width="200" height="120" fill="#bfe3f5"/>
+          <rect y="95" width="200" height="25" fill="#8a8a8a"/>
+          <rect y="92" width="200" height="4" fill="#555"/>
+          <rect x="20" y="40" width="160" height="48" rx="12" fill="#c0392b" stroke="#444" stroke-width="2"/>
+          <rect x="20" y="64" width="160" height="6" fill="#fff"/>
+          <g fill="#e8f6ff" stroke="#444" stroke-width="1.5">
+            <rect x="32" y="48" width="22" height="14" rx="3"/><rect x="62" y="48" width="22" height="14" rx="3"/>
+            <rect x="92" y="48" width="22" height="14" rx="3"/><rect x="122" y="48" width="22" height="14" rx="3"/>
+            <path d="M152 48 H172 Q176 48 176 54 V62 H152 Z"/>
+          </g>
+          <g fill="#333"><circle cx="45" cy="90" r="7"/><circle cx="80" cy="90" r="7"/><circle cx="125" cy="90" r="7"/><circle cx="160" cy="90" r="7"/></g>
+        </svg>
+        <h2>Train + avion</h2>
+        <ul>
+          <li>Départ : gare de Genève-Cornavin</li>
+          <li>Trajet : train vers Milan (environ 4 h), puis vol vers Le Caire</li>
+          <li>Durée totale : environ 9 à 11 h</li>
+          <li>Prix indicatif : 80 à 150 CHF de train, plus le vol</li>
+        </ul>
+        <p>Plus écologique pour la première partie du voyage.</p>
+      </article>
+
+      <article class="item-article">
+        <!-- Car -->
+        <svg viewBox="0 0 200 120" role="img" aria-label="Dessin d'un autocar sur la route">
+          <rect width="200" height="120" fill="#bfe3f5"/>
+          <rect y="92" width="200" height="28" fill="#6b6b6b"/>
+          <path d="M0 106 H200" stroke="#fff" stroke-width="3" stroke-dasharray="14 10"/>
+          <rect x="22" y="34" width="156" height="54" rx="10" fill="#2e86c1" stroke="#333" stroke-width="2"/>
+          <g fill="#e8f6ff" stroke="#333" stroke-width="1.5">
+            <rect x="32" y="42" width="24" height="18" rx="3"/><rect x="62" y="42" width="24" height="18" rx="3"/>
+            <rect x="92" y="42" width="24" height="18" rx="3"/><rect x="122" y="42" width="24" height="18" rx="3"/>
+            <path d="M152 42 H170 Q174 42 174 48 V60 H152 Z"/>
+          </g>
+          <rect x="22" y="68" width="156" height="5" fill="#fff"/>
+          <g fill="#222"><circle cx="55" cy="90" r="10"/><circle cx="145" cy="90" r="10"/></g>
+          <g fill="#aaa"><circle cx="55" cy="90" r="4"/><circle cx="145" cy="90" r="4"/></g>
+        </svg>
+        <h2>Car + avion</h2>
+        <ul>
+          <li>Départ : gare routière de Genève</li>
+          <li>Trajet : car vers Milan ou Lyon, puis vol vers l'Égypte</li>
+          <li>Durée du car : environ 4 à 6 h</li>
+          <li>Prix indicatif : 15 à 40 CHF pour le car</li>
+        </ul>
+        <p>Le plus économique pour rejoindre un aéroport à bas prix.</p>
+      </article>
+
+      <article class="item-article">
+        <!-- Voiture + bateau -->
+        <svg viewBox="0 0 200 120" role="img" aria-label="Dessin d'une voiture sur un bateau">
+          <rect width="200" height="120" fill="#bfe3f5"/>
+          <rect y="80" width="200" height="40" fill="#3a8fc7"/>
+          <!-- bateau -->
+          <path d="M20 78 H180 L160 100 H40 Z" fill="#444" stroke="#222" stroke-width="2"/>
+          <rect x="120" y="50" width="40" height="28" fill="#f4f4f4" stroke="#444" stroke-width="2"/>
+          <rect x="132" y="38" width="10" height="12" fill="#c0392b" stroke="#444" stroke-width="1.5"/>
+          <g fill="#8fd0f5" stroke="#444" stroke-width="1.5"><circle cx="130" cy="62" r="4"/><circle cx="145" cy="62" r="4"/></g>
+          <!-- voiture -->
+          <path d="M35 76 V66 Q35 62 40 62 H48 L56 52 H84 L92 62 H100 Q104 62 104 66 V76 Z" fill="#e67e22" stroke="#444" stroke-width="2"/>
+          <path d="M52 62 L58 55 H68 V62 Z M72 62 V55 H82 L88 62 Z" fill="#e8f6ff" stroke="#444" stroke-width="1.2"/>
+          <g fill="#222"><circle cx="50" cy="77" r="6"/><circle cx="90" cy="77" r="6"/></g>
+          <!-- vagues -->
+          <path d="M0 104 Q10 98 20 104 T40 104 T60 104 T80 104 T100 104 T120 104 T140 104 T160 104 T180 104 T200 104" fill="none" stroke="#fff" stroke-width="2.5"/>
+          <path d="M0 114 Q10 108 20 114 T40 114 T60 114 T80 114 T100 114 T120 114 T140 114 T160 114 T180 114 T200 114" fill="none" stroke="#fff" stroke-width="2.5"/>
+        </svg>
+        <h2>Voiture + bateau</h2>
+        <ul>
+          <li>Trajet : Genève → Gênes, environ 330 km (4 h 30)</li>
+          <li>Péages : autoroute italienne payante, vignette suisse obligatoire</li>
+          <li>Traversée : croisière ou ferry vers Alexandrie (plusieurs jours, saisonnier)</li>
+          <li>Prix indicatif : à partir de 600 CHF par personne</li>
+        </ul>
+        <p>Option longue et peu courante : vérifiez les horaires auprès de la compagnie.</p>
+      </article>
+
+    </section>
+
+    <section id="recapitulatif">
+      <h2>Récapitulatif</h2>
+      <table>
+        <thead>
+          <tr><th>Moyen</th><th>Durée approximative</th><th>Prix approximatif</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Avion direct</td><td>4 h 30 – 5 h</td><td>250 – 600 CHF</td></tr>
+          <tr><td>Train + avion</td><td>9 – 11 h</td><td>330 – 750 CHF</td></tr>
+          <tr><td>Car + avion</td><td>10 – 13 h</td><td>270 – 650 CHF</td></tr>
+          <tr><td>Voiture + bateau</td><td>plusieurs jours</td><td>600 CHF et plus</td></tr>
+        </tbody>
+      </table>
+      <p><em>Prix et durées indicatifs : à vérifier avant de réserver.</em></p>
+    </section>
+  </main>
+
+</body>
+</html>
