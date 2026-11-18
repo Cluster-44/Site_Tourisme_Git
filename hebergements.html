@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hébergements en Égypte</title>
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Ajouts minimes, uniquement pour cette page (le reste vient de style.css) -->
+  <style>
+    #hebergements { height: auto; flex-wrap: wrap; justify-content: center; }
+    #hebergements .item-article { max-width: 250px; }
+    #hebergements svg { width: 100%; height: auto; border-radius: 20px; display: block; }
+    #hebergements .etoiles { color: #b8860b; font-size: 1.2rem; }
+    #hebergements a { color: black; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <nav>
+        <a href="sites_touristiques.html">Sites touristiques</a>
+        <a href="cuisine.html">Cuisine sur place</a>
+        <a href="faune_et_flore.html">Faune et flore</a>
+        <a href="acces.html">Venir depuis Geneve</a>
+        <a href="hebergements.html">Hébergements</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="introduction">
+      <h1>Où dormir en Égypte ?</h1>
+      <p>
+        L'Égypte propose des hébergements pour tous les budgets : grands hôtels
+        historiques, appartements en ville, ou cabanes simples au bord de la mer.
+        Voici quatre idées pour votre séjour.
+      </p>
+    </section>
+
+    <section id="hebergements" class="Sections-differentes">
+
+      <article class="item-article">
+        <!-- Hôtel près des pyramides -->
+        <svg viewBox="0 0 200 120" role="img" aria-label="Dessin d'un hôtel devant les pyramides de Gizeh">
+          <rect width="200" height="120" fill="#fbd98a"/>
+          <circle cx="165" cy="26" r="14" fill="#fff3c4"/>
+          <path d="M10 85 L70 30 L130 85 Z" fill="#d9a441" stroke="#8a6414" stroke-width="2"/>
+          <path d="M70 30 L130 85 H90 Z" fill="#c28f2e"/>
+          <path d="M100 85 L140 50 L180 85 Z" fill="#d9a441" stroke="#8a6414" stroke-width="2"/>
+          <rect y="85" width="200" height="35" fill="#ecc16b"/>
+          <rect x="55" y="68" width="90" height="38" fill="#f7efe0" stroke="#555" stroke-width="2"/>
+          <path d="M55 68 L100 52 L145 68 Z" fill="#c0392b" stroke="#555" stroke-width="2"/>
+          <g fill="#6aaed6" stroke="#555" stroke-width="1.2">
+            <rect x="65" y="76" width="12" height="12"/><rect x="85" y="76" width="12" height="12"/>
+            <rect x="105" y="76" width="12" height="12"/><rect x="125" y="76" width="12" height="12"/>
+          </g>
+          <rect x="94" y="92" width="12" height="14" fill="#7b4a1e"/>
+        </svg>
+        <h2>Marriott Mena House</h2>
+        <p class="etoiles">★★★★★</p>
+        <ul>
+          <li>Type : hôtel de luxe, Gizeh (Le Caire)</li>
+          <li>Prix : environ 150 à 300 CHF la nuit</li>
+          <li>Services : petit-déjeuner, piscine, parking, wifi</li>
+          <li>Site : <a href="https://www.marriott.com" target="_blank" rel="noopener">marriott.com</a></li>
+        </ul>
+      </article>
+
+      <article class="item-article">
+        <!-- Hôtel historique Louxor -->
+        <svg viewBox="0 0 200 120" role="img" aria-label="Dessin d'un grand hôtel au bord du Nil à Louxor">
+          <rect width="200" height="120" fill="#a9dcf2"/>
+          <rect y="88" width="200" height="32" fill="#3a8fc7"/>
+          <path d="M0 100 Q10 94 20 100 T40 100 T60 100 T80 100 T100 100 T120 100 T140 100 T160 100 T180 100 T200 100" fill="none" stroke="#fff" stroke-width="2"/>
+          <rect x="25" y="40" width="150" height="48" fill="#f3e3b8" stroke="#6b5a2a" stroke-width="2"/>
+          <rect x="20" y="34" width="160" height="8" fill="#d9a441" stroke="#6b5a2a" stroke-width="2"/>
+          <g fill="#d9a441" stroke="#6b5a2a" stroke-width="1.5">
+            <rect x="35" y="42" width="8" height="46"/><rect x="65" y="42" width="8" height="46"/>
+            <rect x="95" y="42" width="8" height="46"/><rect x="125" y="42" width="8" height="46"/>
+            <rect x="155" y="42" width="8" height="46"/>
+          </g>
+          <g fill="#6aaed6" stroke="#6b5a2a" stroke-width="1.2">
+            <rect x="48" y="52" width="12" height="16"/><rect x="78" y="52" width="12" height="16"/>
+            <rect x="108" y="52" width="12" height="16"/><rect x="138" y="52" width="12" height="16"/>
+          </g>
+          <g fill="#2e7d32"><rect x="12" y="70" width="4" height="18" fill="#7b4a1e"/><path d="M14 70 L4 62 M14 70 L24 62 M14 70 L14 58" stroke="#2e7d32" stroke-width="3"/></g>
+        </svg>
+        <h2>Sofitel Winter Palace</h2>
+        <p class="etoiles">★★★★★</p>
+        <ul>
+          <li>Type : hôtel historique, Louxor, au bord du Nil</li>
+          <li>Prix : environ 150 à 300 CHF la nuit</li>
+          <li>Services : petit-déjeuner, piscine, jardin, wifi</li>
+          <li>Site : <a href="https://www.sofitel-legend.com" target="_blank" rel="noopener">sofitel-legend.com</a></li>
+        </ul>
+      </article>
+
+      <article class="item-article">
+        <!-- Eco-lodge / camping -->
+        <svg viewBox="0 0 200 120" role="img" aria-label="Dessin d'une cabane et d'une tente au bord de la mer">
+          <rect width="200" height="120" fill="#bfe8f7"/>
+          <rect y="60" width="200" height="22" fill="#2f9fd0"/>
+          <rect y="82" width="200" height="38" fill="#f1d9a0"/>
+          <circle cx="170" cy="26" r="13" fill="#ffe27a"/>
+          <path d="M40 100 L80 56 L120 100 Z" fill="#e67e22" stroke="#7a3f0c" stroke-width="2"/>
+          <path d="M80 56 L80 100" stroke="#7a3f0c" stroke-width="2"/>
+          <path d="M80 100 L70 100 L80 82 L90 100 Z" fill="#7a3f0c"/>
+          <rect x="125" y="78" width="40" height="26" fill="#a0522d" stroke="#5a2e12" stroke-width="2"/>
+          <path d="M120 78 L145 60 L170 78 Z" fill="#d2a45c" stroke="#5a2e12" stroke-width="2"/>
+          <rect x="140" y="88" width="10" height="16" fill="#5a2e12"/>
+          <rect x="18" y="64" width="5" height="38" fill="#7b4a1e"/>
+          <path d="M20 66 Q6 56 2 62 M20 66 Q34 56 38 62 M20 66 Q20 50 20 48" stroke="#2e7d32" stroke-width="4" fill="none"/>
+        </svg>
+        <h2>Basata Eco-Lodge</h2>
+        <p class="etoiles">★★★☆☆</p>
+        <ul>
+          <li>Type : camping et cabanes, Sinaï (bord de mer)</li>
+          <li>Prix : environ 25 à 60 CHF la nuit</li>
+          <li>Services : petit-déjeuner, cuisine végétarienne, plage</li>
+          <li>Site : <a href="https://www.basata.com" target="_blank" rel="noopener">basata.com</a></li>
+        </ul>
+      </article>
+
+      <article class="item-article">
+        <!-- Appartement -->
+        <svg viewBox="0 0 200 120" role="img" aria-label="Dessin d'un immeuble d'appartements au Caire">
+          <rect width="200" height="120" fill="#fbe2b6"/>
+          <rect y="100" width="200" height="20" fill="#9a9a9a"/>
+          <rect x="60" y="20" width="80" height="80" fill="#e9d3a5" stroke="#6b5a2a" stroke-width="2"/>
+          <g fill="#6aaed6" stroke="#6b5a2a" stroke-width="1.2">
+            <rect x="70" y="28" width="16" height="16"/><rect x="92" y="28" width="16" height="16"/><rect x="114" y="28" width="16" height="16"/>
+            <rect x="70" y="52" width="16" height="16"/><rect x="92" y="52" width="16" height="16"/><rect x="114" y="52" width="16" height="16"/>
+            <rect x="70" y="76" width="16" height="16"/><rect x="114" y="76" width="16" height="16"/>
+          </g>
+          <rect x="92" y="78" width="16" height="22" fill="#7b4a1e"/>
+          <rect x="66" y="45" width="24" height="3" fill="#555"/><rect x="110" y="69" width="24" height="3" fill="#555"/>
+          <rect x="15" y="55" width="35" height="45" fill="#d8c08a" stroke="#6b5a2a" stroke-width="2"/>
+          <rect x="150" y="45" width="35" height="55" fill="#d8c08a" stroke="#6b5a2a" stroke-width="2"/>
+        </svg>
+        <h2>Appartement à Zamalek</h2>
+        <p class="etoiles">★★★★☆</p>
+        <ul>
+          <li>Type : appartement, quartier de Zamalek (Le Caire)</li>
+          <li>Prix : environ 40 à 90 CHF la nuit</li>
+          <li>Services : cuisine équipée, wifi, climatisation</li>
+          <li>Site : <a href="https://www.airbnb.com" target="_blank" rel="noopener">airbnb.com</a></li>
+        </ul>
+      </article>
+
+    </section>
+  </main>
+
+</body>
+</html>
